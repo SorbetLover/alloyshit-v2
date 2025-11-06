@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="DD" folder="stages/gif/">
+	<sprite name="bg"               x="100" y="300"   sprite="DDBack"       scroll="1" scale="6" antialiasing="false"/>
+	<girlfriend />
+	<dad x="0" y="-100"/>
+	<boyfriend x="600" y="-50" camxoffset="-300"/>
+	<character name="gif/monikaDD" x="-300"/>
+
+	<sprite name="bg"               x="100" y="300"   sprite="DDFore"       scrollx="1.1" scale="6" antialiasing="false"/>
+
+</stage>

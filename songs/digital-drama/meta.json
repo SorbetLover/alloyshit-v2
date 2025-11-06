@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FD71BF",
+	"opponentModeAllowed": true,
+	"icon": "gif/gifpissed",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Digital Drama",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 120
+}

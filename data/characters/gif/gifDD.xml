@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" scale="6" antialiasing="false" icon="gif/gifpissed" color="#FF67BD">
+	<anim name="idle" anim="giffany Idle" fps="12"/>
+	<anim name="singUP" anim="giffany Up" x="-0.83" y="-0.17"/>
+	<anim name="singLEFT" anim="giffany Left" x="0.17"/>
+	<anim name="singRIGHT" anim="giffany Right" x="1.67" y="0.17"/>
+	<anim name="singDOWN" anim="giffany Down" x="-0.49" y="0.17"/>
+	<anim name="laugh" anim="giffany Laugh" x="-0.17" y="-0.16" fps="12"/>
+</character>

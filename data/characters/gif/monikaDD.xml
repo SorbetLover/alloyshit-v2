@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" scale="6" antialiasing="false" color="#31B0D1">
+	<anim name="idle" anim="Mka Idle"/>
+	<anim name="singUP" anim="Mka Alt Up" x="-2.49"/>
+	<anim name="singLEFT" anim="Mka Alt Left" x="-0.67"/>
+	<anim name="singRIGHT" anim="Mka Alt Right" x="0.67" y="0.5"/>
+	<anim name="singDOWN" anim="Mka Alt Down" x="-2.83" y="0.17"/>
+</character>

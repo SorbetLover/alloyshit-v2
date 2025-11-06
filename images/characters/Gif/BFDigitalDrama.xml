@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FNR7bf-DD.png">
+<SubTexture name="BF IDLE instance 10000" x="0" y="0" width="78" height="90" frameX="0" frameY="0" frameWidth="78" frameHeight="90" />
+<SubTexture name="BF IDLE instance 10001" x="81" y="0" width="78" height="90" frameX="2" frameY="0" frameWidth="78" frameHeight="90" />
+<SubTexture name="BF IDLE instance 10002" x="162" y="0" width="78" height="90" frameX="4" frameY="0" frameWidth="78" frameHeight="90" />
+<SubTexture name="BF IDLE instance 10003" x="0" y="90" width="78" height="90" frameX="0" frameY="0" frameWidth="78" frameHeight="90" />
+<SubTexture name="BF IDLE instance 10004" x="81" y="90" width="78" height="90" frameX="2" frameY="0" frameWidth="78" frameHeight="90" />
+<SubTexture name="BF IDLE instance 10005" x="0" y="0" width="78" height="90" frameX="0" frameY="0" frameWidth="78" frameHeight="90" />
+
+<SubTexture name="BF LEFT NOTE instance 10000" x="161" y="90" width="83" height="90" frameX="5" frameY="0" frameWidth="83" frameHeight="90" />
+<SubTexture name="BF LEFT NOTE instance 10001" x="244" y="0" width="83" height="90" frameX="5" frameY="0" frameWidth="83" frameHeight="90" />
+
+<SubTexture name="BF DOWN NOTE instance 10000" x="249" y="90" width="79" height="90" frameX="0" frameY="0" frameWidth="79" frameHeight="90" />
+<SubTexture name="BF DOWN NOTE instance 10001" x="0" y="180" width="79" height="90" frameX="0" frameY="0" frameWidth="79" frameHeight="90" />
+
+<SubTexture name="BF RIGHT NOTE instance 10000" x="83" y="180" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+<SubTexture name="BF RIGHT NOTE instance 10001" x="166" y="180" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+<SubTexture name="BF UP NOTE instance 10000" x="249" y="180" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+<SubTexture name="BF UP NOTE instance 10001" x="332" y="0" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+
+<SubTexture name="BF LEFT MISS instance 10000" x="327" y="90" width="83" height="90" frameX="5" frameY="0" frameWidth="83" frameHeight="90" />
+
+<SubTexture name="BF DOWN MISS instance 10000" x="332" y="180" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+<SubTexture name="BF RIGHT MISS instance 10000" x="0" y="270" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+<SubTexture name="BF UP MISS instance 10000" x="83" y="270" width="83" height="90" frameX="0" frameY="0" frameWidth="83" frameHeight="90" />
+</TextureAtlas>

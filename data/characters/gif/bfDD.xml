@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" y="570" sprite="gif/BFDigitalDrama" scale="6" antialiasing="false" flipX="true" isPlayer="true" icon="gif/bf" color="#7BD5F6" gameOverChar="bf-pixel-dead">
+	<anim name="idle" anim="BF IDLE" fps="12"/>
+	<anim name="singLEFT" anim="BF LEFT NOTE" x="-1"/>
+	<anim name="singDOWN" anim="BF DOWN NOTE"/>
+	<anim name="singUP" anim="BF UP NOTE" x="0.33" y="0.16"/>
+	<anim name="singRIGHT" anim="BF RIGHT NOTE"/>
+	<anim name="singUPmiss" anim="BF UP MISS"/>
+	<anim name="singLEFTmiss" anim="BF LEFT MISS" x="-1"/>
+	<anim name="singRIGHTmiss" anim="BF RIGHT MISS"/>
+	<anim name="singDOWNmiss" anim="BF DOWN MISS"/>
+</character>

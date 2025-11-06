@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="giffany_angry-DD.png">
+
+<SubTexture name="giffany Idle0000" x="0" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Idle0001" x="135" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Idle0002" x="270" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Idle0003" x="405" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Idle0004" x="540" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+
+<SubTexture name="giffany Left0000" x="0" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Left0001" x="135" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Left0002" x="270" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Left0003" x="405" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+
+<SubTexture name="giffany Right0000" x="540" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Right0001" x="675" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Right0002" x="810" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Right0003" x="945" y="0" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+
+<SubTexture name="giffany Down0000" x="0" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Down0001" x="135" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Down0002" x="270" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Down0003" x="405" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+
+<SubTexture name="giffany Up0000" x="540" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Up0001" x="675" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Up0002" x="810" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Up0003" x="945" y="150" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+
+<SubTexture name="giffany Laugh0000" x="675" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+<SubTexture name="giffany Laugh0001" x="810" y="300" width="135" height="150" frameX="0" frameY="0" frameWidth="135" frameHeight="150" />
+
+</TextureAtlas>
