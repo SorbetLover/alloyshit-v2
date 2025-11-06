@@ -2,6 +2,8 @@ function postCreate(){
 	camGame.followLerp = 0.6;
 	iconP1.visible = false;
 	iconP2.visible = false;
+
+	iconP2.setIcon("duos/mng", true);
 }
 
 function onNoteHit(e){

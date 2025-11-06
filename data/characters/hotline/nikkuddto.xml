@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character flipX="true" isPlayer="true" icon="hotline/nikku" color="#3F3FFF" holdTime="6.1">
+	<anim name="idle" anim="nikku idle" x="-5"/>
+	<anim name="singUP" anim="nikku note up" x="6" y="20"/>
+	<anim name="singLEFT" anim="nikku left" x="47" y="-10"/>
+	<anim name="singRIGHT" anim="nikku note right" x="-48" y="-40"/>
+	<anim name="singDOWN" anim="nikku note down" x="7" y="-112"/>
+	<anim name="singUPmiss" anim="nikku noteup miss" x="2" y="70"/>
+	<anim name="singLEFTmiss" anim="nikku noteleft miss" x="68" y="9"/>
+	<anim name="singRIGHTmiss" anim="nikku noteright miss" x="-67" y="-14"/>
+	<anim name="singDOWNmiss" anim="nikku notedown miss" x="-6" y="-116"/>
+</character>

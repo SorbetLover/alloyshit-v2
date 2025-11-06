@@ -27,7 +27,7 @@ var pitchthing:FlxText;
 
 function postCreate(){
     remove(members[3]);
-    trace(FlxG.save.data.curPitch);
+    // trace(FlxG.save.data.curPitch);
     if(FlxG.save.data.curPitch == null || FlxG.save.data.curPitch < 0) FlxG.save.data.curPitch = 1;
     
     pitchthing = new FlxText(900,400, 0, "[Yr][I+][O-]\n  Pitch = " + FlxG.save.data.curPitch, 30);

@@ -1,9 +1,12 @@
 import flixel.text.FlxTextAlign;
+import flixel.input.touch.FlxTouch;
 
 var defaultHoldTime = 8;
 var songIsPaused = false;
 
 var botplayText:FlxText;
+
+var botbtn:FunkinSprite;
 function postCreate(){
     if(dad != null)         dad.holdTime =          defaultHoldTime;
     if(gf != null)          gf.holdTime =   defaultHoldTime;
@@ -15,6 +18,13 @@ function postCreate(){
     botplayText.y = 30;
     botplayText.alignment = FlxTextAlign.CENTER;
     botplayText.cameras = [camHUD];
+
+    botbtn = new FunkinSprite().makeSolid(150,120, 0xFFFFFFFF);
+    add(botbtn);
+    botbtn.updateHitbox();
+    botbtn.cameras = [camHUD];
+    botbtn.setPosition(healthBar.x + healthBar.width, healthBar.y - (botbtn.height / 2));
+    FlxG.mouse.visible = true;
 }   
 var fg = FlxG.keys.justPressed;
 var delta = 0;
@@ -24,11 +34,24 @@ function update(elapsed){
     botplayText.visible = player.cpu;
     if(player.cpu){
 
-        delta += elapsed * 5;
+        delta += elapsed * (Conductor.bpm / 100);
 
         botplayText.alpha = (( 70 + 30 * Math.cos(delta)) / 100);
         botplayText.x = (FlxG.width / 2 - (botplayText.width / 2)) + 20 * Math.sin(delta);
     }
+    for (touch in FlxG.touches.list)
+    {
+        if (touch.justPressed)
+        {
+            var pos = touch.getWorldPosition(camHUD);
+
+            if (botbtn.overlapsPoint(pos))
+            {
+                player.cpu = !player.cpu;
+            }
+        }
+    }
+
 }
 function keyshit(){
     if(fg.Z){

@@ -1,0 +1,15 @@
+{
+	"color": "#FD7171",
+	"customValues": {},
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "hotline/nikku",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Deep Poems",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 138
+}
