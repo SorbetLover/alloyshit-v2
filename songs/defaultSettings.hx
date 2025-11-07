@@ -5,8 +5,10 @@ var defaultHoldTime = 8;
 var songIsPaused = false;
 
 var botplayText:FlxText;
+var theStrs;
 
 function postCreate(){
+    theStrs = PlayState.opponentMode ? cpu : player;
     if(dad != null)         dad.holdTime =          defaultHoldTime;
     if(gf != null)          gf.holdTime =   defaultHoldTime;
     if(bf != null)          bf.holdTime =           defaultHoldTime;
@@ -24,8 +26,8 @@ var delta = 0;
 function update(elapsed){
     keyshit();
     functionsthing();
-    botplayText.visible = player.cpu;
-    if(player.cpu){
+    botplayText.visible = theStrs.cpu;
+    if(theStrs.cpu){
 
         delta += elapsed * (Conductor.bpm / 100);
 
@@ -38,7 +40,7 @@ function keyshit(){
         songIsPaused = !songIsPaused;
     }
     if(fg.C){
-        player.cpu = !player.cpu;
+        theStrs.cpu = !theStrs.cpu;
     }
 }
 function functionsthing(){

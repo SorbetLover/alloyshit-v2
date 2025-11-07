@@ -1,11 +1,15 @@
 {
-	"color": "#FD7171",
-	"customValues": {},
+	"color": "#646464",
+	"customValues": {
+		"duration": "3:17",
+		"diff": "MEDIUM-NORMAL",
+		"mechanics": "none"
+	},
 	"opponentModeAllowed": true,
 	"difficulties": [
 		"hard"
 	],
-	"icon": "hotline/nikku",
+	"icon": "duos/ayw",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Deep Poems",

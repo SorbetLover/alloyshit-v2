@@ -1,8 +1,12 @@
 {
-	"customValues": {},
-	"color": "#FD71BF",
+	"customValues": {
+		"duration": "2:42",
+		"mechanics": "none",
+		"diff": "MEDIUM-EASY"
+	},
+	"color": "#FF3B9F",
 	"opponentModeAllowed": true,
-	"icon": "gif/gifpissed",
+	"icon": "duos/mng",
 	"difficulties": [
 		"hard"
 	],
