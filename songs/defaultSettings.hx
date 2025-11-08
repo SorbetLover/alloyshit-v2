@@ -6,7 +6,6 @@ var songIsPaused = false;
 
 var botplayText:FlxText;
 var theStrs;
-
 function postCreate(){
     theStrs = PlayState.opponentMode ? cpu : player;
     if(dad != null)         dad.holdTime =          defaultHoldTime;
@@ -20,10 +19,14 @@ function postCreate(){
     botplayText.alignment = FlxTextAlign.CENTER;
     botplayText.cameras = [camHUD];
 
+    if(FlxG.save.data.hidingHUD == null) FlxG.save.data.hidingHUD = false;
+    camHUD.visible = FlxG.save.data.hidingHUD;
 }   
 var fg = FlxG.keys.justPressed;
+var fgp = FlxG.keys.pressed;
 var delta = 0;
 function update(elapsed){
+    
     keyshit();
     functionsthing();
     botplayText.visible = theStrs.cpu;
@@ -34,6 +37,7 @@ function update(elapsed){
         botplayText.alpha = (( 70 + 30 * Math.cos(delta)) / 100);
         botplayText.x = (FlxG.width / 2 - (botplayText.width / 2)) + 20 * Math.sin(delta);
     }
+    if(camHUD.visible == false) player.cpu = true;
 }
 function keyshit(){
     if(fg.Z){
@@ -41,6 +45,12 @@ function keyshit(){
     }
     if(fg.C){
         theStrs.cpu = !theStrs.cpu;
+    }
+    if(fg.TAB && fgp.SHIFT){
+        camHUD.visible = !camHUD.visible;
+        FlxG.save.data.hidingHUD = camHUD.visible;
+        trace(player.cpu);
+
     }
 }
 function functionsthing(){

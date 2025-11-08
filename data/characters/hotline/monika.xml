@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character icon="hotline/monikaandyuri" color="#FF67C6" holdTime="6.1">
+	<anim name="idle" anim="MonikaIdle"/>
+	<anim name="singUP" anim="MonikaUp" x="-16" y="-6"/>
+	<anim name="singRIGHT" anim="MonikaRight" x="-15" y="-7"/>
+	<anim name="singLEFT" anim="MonikaLeft" x="17" y="6"/>
+	<anim name="singDOWN" anim="MonikaDown" x="-16" y="-11"/>
+</character>

@@ -1,15 +1,15 @@
 {
-	"color": "#646464",
+	"color": "#FF43A3",
 	"customValues": {
 		"duration": "3:17",
-		"diff": "MEDIUM-NORMAL",
-		"mechanics": "none"
+		"mechanics": "none",
+		"diff": "MEDIUM-NORMAL"
 	},
 	"opponentModeAllowed": true,
 	"difficulties": [
 		"hard"
 	],
-	"icon": "duos/ayw",
+	"icon": "hotline/monikaandyuri",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Deep Poems",

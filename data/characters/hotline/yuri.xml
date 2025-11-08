@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character icon="hotline/monikaandyuri" color="#FF79DD" holdTime="6.1">
+	<anim name="idle" anim="Yuri Idle"/>
+	<anim name="singUP" anim="Yuri Up" x="-11" y="15"/>
+	<anim name="singRIGHT" anim="Yuri Right" x="-2" y="9"/>
+	<anim name="singLEFT" anim="Yuri Left" x="-3" y="-1"/>
+	<anim name="singDOWN" anim="Yuri Down" x="1" y="1"/>
+</character>

@@ -1,13 +1,22 @@
 function postCreate(){
+
+		var defx = -200;
 		var cu = new FunkinSprite().makeSolid(bg.width, 200,0xFF000000);
-		cu.setPosition(bg.x,bg.y - 20);
+		cu.setPosition(defx,bg.y + 40);
 		add(cu);
 
+		cu.scrollFactor.set(0,0);
 		var cu = new FunkinSprite().makeSolid(bg.width, 200,0xFF000000);
-		cu.setPosition(bg.x,bg.y + bg.height - 180);
+		cu.setPosition(defx,bg.y + bg.height - 120);
 		add(cu);
+		cu.scrollFactor.set(0,0);
 
-		iconP2.setIcon("duos/ayw", false);
+		switch(strumLines.members[0].characters[0])
+		{
+			case "sorb/aiden":
+				iconP2.setIcon("duos/ayw", false);
+			default:
+		}
 
 		comboGroup.x = 10000;
 
