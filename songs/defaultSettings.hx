@@ -1,7 +1,7 @@
 import flixel.text.FlxTextAlign;
 import flixel.input.touch.FlxTouch;
 
-var defaultHoldTime = 8;
+var defaultHoldTime = 6;
 var songIsPaused = false;
 
 var botplayText:FlxText;
@@ -9,7 +9,7 @@ var theStrs;
 function postCreate(){
     theStrs = PlayState.opponentMode ? cpu : player;
     if(dad != null)         dad.holdTime =          defaultHoldTime;
-    if(gf != null)          gf.holdTime =   defaultHoldTime;
+    if(gf != null)          gf.holdTime =       defaultHoldTime;
     if(bf != null)          bf.holdTime =           defaultHoldTime;
 
     botplayText = new FlxText(FlxG.width / 2 , 100, 0, "CPU", 30);

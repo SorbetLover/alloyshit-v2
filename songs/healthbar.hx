@@ -5,7 +5,7 @@ var ticons = [];
 
 function postCreate(){
     var eh = -1;
-    for(i in [iconP1, iconP2]) { eh++; remove(i); if(StringTools.startsWith(i.curCharacter, "sorb/")) defScales[eh] = 0.7;}
+    for(i in [iconP1, iconP2]) { eh++; i.visible = false; if(StringTools.startsWith(i.curCharacter, "sorb/")) defScales[eh] = 0.7;}
     
     iconP1A = new HealthIcon(iconP1.curCharacter, iconP1.isPlayer);
     iconP2A = new HealthIcon(iconP2.curCharacter, iconP2.isPlayer);
@@ -25,5 +25,7 @@ function postUpdate(){
     
     ticons[1].scale.x = FlxMath.lerp(ticons[1].scale.x, defScales[1], 0.1);
     ticons[1].scale.y = ticons[1].scale.x;
-    
+ 
+    iconP1A.animation.curAnim.curFrame = iconP1.animation.curAnim.curFrame;
+    iconP2A.animation.curAnim.curFrame = iconP2.animation.curAnim.curFrame;
 }

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="hecker/hecker_assets" icon="hecker/hecker" color="#FFA962" holdTime="6">
+	<anim name="idle" anim="heckeridle"/>
+	<anim name="singUP" anim="heckerup"/>
+	<anim name="singLEFT" anim="heckerleft"/>
+	<anim name="singRIGHT" anim="heckerright"/>
+	<anim name="singDOWN" anim="heckerdown"/>
+</character>

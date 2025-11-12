@@ -107,10 +107,10 @@ function update(){
 
 function destroy() {
     if (merdacam != null) {
-        trace(merdacam);
+        // trace(merdacam);
         FlxG.cameras.remove(merdacam);
         merdacam.destroy();
         merdacam = null;
-        trace(merdacam);
+        // trace(merdacam);
     }
 }

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="hecker/BOYFRIEND" flipX="true" isPlayer="true" icon="hecker/bf" color="#31B0D1">
+	<anim name="idle" anim="BF idle dance"/>
+	<anim name="singUP" anim="BF NOTE UP0"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS"/>
+</character>

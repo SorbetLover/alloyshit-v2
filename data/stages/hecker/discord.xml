@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="exampleStage" folder="stages/hecker/discord/">
+	<girlfriend />
+	<sprite name="bg"               x="-570" y="-400"   sprite="discordbg"       scroll="1" />
+	<dad />
+	<boyfriend />
+</stage>

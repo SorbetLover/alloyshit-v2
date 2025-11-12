@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character color="#FF6C6C" holdTime="6.1">
+	<anim name="idle" anim="idle"/>
+	<anim name="singUP" anim="up"/>
+	<anim name="singLEFT" anim="left"/>
+	<anim name="singRIGHT" anim="right"/>
+	<anim name="singDOWN" anim="down"/>
+</character>
