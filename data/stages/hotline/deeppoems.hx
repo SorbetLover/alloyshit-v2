@@ -11,10 +11,13 @@ function postCreate(){
 		add(cu);
 		cu.scrollFactor.set(0,0);
 
-		switch(strumLines.members[0].characters[0])
+		switch(strumLines.members[0].characters[0].curCharacter)
 		{
 			case "sorb/aiden":
 				iconP2.setIcon("duos/ayw", false);
+				dad.y -= 30;
+				strumLines.members[0].characters[1].y -= 10;
+				strumLines.members[0].characters[1].scale.set(0.45,0.45);
 			default:
 		}
 
