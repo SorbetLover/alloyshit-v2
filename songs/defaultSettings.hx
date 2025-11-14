@@ -37,7 +37,7 @@ function update(elapsed){
         botplayText.alpha = (( 70 + 30 * Math.cos(delta)) / 100);
         botplayText.x = (FlxG.width / 2 - (botplayText.width / 2)) + 20 * Math.sin(delta);
     }
-    if(camHUD.visible == false) player.cpu = true;
+    if(camHUD.visible == false) theStrs.cpu = true;
 }
 function keyshit(){
     if(fg.Z){
