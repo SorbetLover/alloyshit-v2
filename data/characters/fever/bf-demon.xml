@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="fever/demon_fever_assets" flipX="true" camx="-100" isPlayer="true" icon="fever/bf-demon" color="#FD6EFC">
+	<anim name="idle" anim="fever idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="fever dodge" anim="fever dodge0" x="25" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="fever down0" x="30" y="-75" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="fever down miss0" x="35" y="-80" fps="24" loop="false"/>
+	<anim name="fever fear" anim="fever fear0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="fever hey" anim="fever hey0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="fever left0" x="40" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="fever left miss0" x="50" y="5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="fever right0" x="-5" y="-5" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="fever right miss0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="fever up0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="fever up miss0" x="0" y="0" fps="24" loop="false"/>
+</character>

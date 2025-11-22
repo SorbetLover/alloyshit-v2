@@ -1,0 +1,19 @@
+{
+	"customValues": {
+		"duration": "3:00",
+		"mechanics": "Painting (QT Saw)",
+		"diff": "HARD-NORMAL"
+	},
+	"color": "#FF5555",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"alt"
+	],
+	"icon": "sorb/janja",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "hallow",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 200
+}

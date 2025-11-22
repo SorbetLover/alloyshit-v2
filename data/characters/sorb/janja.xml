@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="sorb/janja" y="0" isGF="false" color="#FFC562" isPlayer="false" holdTime="6.1" sprite="sorb/janja">
+	<anim x="0" loop="false" y="0" fps="24" anim="janja idle0" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="janja down0" name="singDOWN"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="janja left0" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="janja right0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="janja up0" name="singUP"/>
+</character>

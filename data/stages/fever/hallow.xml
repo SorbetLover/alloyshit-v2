@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="exampleStage" folder="stages/fever/hallow">
+	<girlfriend />
+	<sprite name="bg"               x="0" y="0"   sprite="bg"       scroll="1" />
+	<dad />
+	<character name="sorb/janja" camxoffset="200" x="200" y="100"/>
+	<boyfriend x="1500" y="300" camyoffset="-100" camxoffset="-100"/>
+</stage>

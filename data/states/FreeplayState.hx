@@ -1,5 +1,6 @@
 var shittext:FlxText;
 var ptmode = false;
+var ast:FunkinSprite;
 function postCreate(){
 
     if(FlxG.save.data.letocinhaMode){
@@ -14,10 +15,11 @@ function postCreate(){
             add(shittext);
             updatetext(curSelected);
     }
-    // for(i in 0...songs.length){
-    //     songs[i].opponentModeAllowed = true; 
-    //     songs[i].coopAllowed = true; 
-    // }
+    for(i in 0...songs.length){
+        songs[i].opponentModeAllowed = true; 
+        songs[i].coopAllowed = true; 
+    }
+
 }
 function onChangeSelection(e){
     if(FlxG.save.data.letocinhaMode){
