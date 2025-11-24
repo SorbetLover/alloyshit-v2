@@ -18,8 +18,10 @@ function postCreate(){
     botplayText.y = 30;
     botplayText.alignment = FlxTextAlign.CENTER;
     botplayText.cameras = [camHUD];
-
+    
     if(FlxG.save.data.hidingHUD == null) FlxG.save.data.hidingHUD = false;
+    #if android 
+        FlxG.save.data.hidingHUD = false;
     camHUD.visible = FlxG.save.data.hidingHUD;
 }   
 var fg = FlxG.keys.justPressed;
