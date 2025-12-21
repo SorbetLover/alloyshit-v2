@@ -1,12 +1,12 @@
 function postCreate(){
 
 		var defx = -200;
-		var cu = new FunkinSprite().makeSolid(bg.width, 200,0xFF000000);
+		var cu = new FunkinSprite().makeSolid(bg.width + 200, 200,0xFF000000);
 		cu.setPosition(defx,bg.y + 40);
 		add(cu);
 
 		cu.scrollFactor.set(0,0);
-		var cu = new FunkinSprite().makeSolid(bg.width, 200,0xFF000000);
+		var cu = new FunkinSprite().makeSolid(bg.width + 200, 200,0xFF000000);
 		cu.setPosition(defx,bg.y + bg.height - 120);
 		add(cu);
 		cu.scrollFactor.set(0,0);
@@ -23,7 +23,9 @@ function postCreate(){
 
 		comboGroup.x = 10000;
 
+
 }
+
 var cursingchar = false;
 function setsingchar(){
 	cursingchar = !cursingchar;

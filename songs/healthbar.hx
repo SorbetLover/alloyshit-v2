@@ -13,6 +13,9 @@ function postCreate(){
     iconP2A.x = healthBar.x - 150;
     iconP1A.x = healthBar.x + (healthBar.width);
 
+    iconP1A.ID = 9991;
+    iconP2A.ID = 9992;
+
     eh = -1;
     for(i in [iconP1A, iconP2A]) { ticons.push(i); eh++; add(i); i.y = healthBar.y - 75; i.cameras = [camHUD]; i.scale.set(defScales[eh], defScales[eh]); }
 }

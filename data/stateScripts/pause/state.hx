@@ -1,10 +1,19 @@
 import flixel.addons.display.FlxBackdrop;
+
+
 var backdrop:FlxBackdrop;
 var nyansesii:FunkinSprite;
 
 var botbtn:FunkinSprite;
 var merdacam:FlxCamera;
+
+var backdrop1:FlxBackdrop;
+
+var pauseBeat = 0;
+var pauseStep = 0;
+//// 140 bpm
 function create(e){
+
 	menuItems.insert(2, 'Change Diff');
 
     eventCreate(e);
@@ -12,9 +21,18 @@ function create(e){
         backdrop = new FlxBackdrop().loadGraphic(Paths.image("alloy/drawers"));
         add(backdrop);
 
-        backdrop.alpha = 0.7;
+        backdrop.alpha = 0.5;
         backdrop.antialiasing = false;
         backdrop.velocity.set(100 * (Conductor.bpm/ 90), 90);
+
+        backdrop1 = new FlxBackdrop().loadGraphic(Paths.image("menuBGHexL6"));
+        add(backdrop1);        
+        backdrop1.velocity.set(29,30);
+        backdrop1.alpha = 0.1;
+            backdrop2 = new FlxBackdrop().loadGraphic(Paths.image("menuBGHexL6"));
+        insert(100, backdrop2);        
+        backdrop2.velocity.set(-29,-30);
+        backdrop2.alpha = 0.1;
     /// baby
         nyansesii = new FunkinSprite().loadGraphic(Paths.image("alloy/jolly"));
         nyansesii.scale.set(2.2,2.2);
@@ -29,7 +47,11 @@ function eventCreate(e){
 var pitchthing:FlxText;
     
 function postCreate(){
-        remove(members[3]);
+    if(Conductor.isSorbetBuild){
+        bg.visible = false;
+    } else {
+        camera.bgColor = 0x00000000;
+    }
     // trace(FlxG.save.data.curPitch);
         if(FlxG.save.data.curPitch == null || FlxG.save.data.curPitch < 0) FlxG.save.data.curPitch = 1;
         
@@ -48,22 +70,59 @@ function postCreate(){
         add(botbtn);
         botbtn.cameras = [merdacam];
     #end
-    
 }
 var fg = FlxG.keys.justPressed;
 var fag = FlxG.keys.pressed;
 
+var bpm = 140;
+var secPerBeat = 60 / bpm;
+var lastStep = -1;
 
-function update(){
+function songShitUpdate()
+{   
+    
+    var curTime = pauseMusic.time / 1000;
+    var curStep = Math.floor((curTime / secPerBeat) * 4);
+    if(curTime <= 1){
+        lastStep = curStep;
+    }
+    if (curStep > lastStep)
+    {
+        for (i in lastStep + 1...curStep + 1)
+        {
+            coolStep(i);
+        }
+
+        lastStep = curStep;
+    }
+}
+
+function coolStep(step){
+    switch(step){
+        case 256,258,266,272,274,282,288,290,298,304,306,314,320,322,330,336,338,346,352,354,362,368,370,378,384,386,394,400,402,410,416,418,426,432,434,442,448,450,458,464,466,474,480,482,490,496,498,506,640,642,650,656,658,666,672,674,682,688,690,698,704,706,714,720,722,730,736,738,746,752,754,762:
+            backdrop1.alpha = 0.6;
+    }
+}
+function onStepHit(step:Int)
+{
+    trace("Step:", step);
+}
+
+
+function update(elapsed){
+    if (pauseMusic != null && pauseMusic.volume < 0.7)
+        pauseMusic.volume += 0.08 * elapsed;
+    songShitUpdate();
+    backdrop1.alpha = FlxMath.lerp(backdrop1.alpha * 100, 0.1 * 100, 0.04) / 100;
+
+
 #if android
     for (touch in FlxG.touches.list)
     {
         if (touch.justPressed || FlxG.mouse.justPressed)
         {
-            // usa a câmera do botão (merdacam)
             var pos = touch.getWorldPosition(merdacam);
 
-            // usa overlapsPoint com o mesmo espaço de coordenadas
             if (botbtn.overlapsPoint(pos, true, merdacam))
             {
                 PlayState.instance.player.cpu = !PlayState.instance.player.cpu;
@@ -72,18 +131,6 @@ function update(){
         }
     }
 #end
-// if (FlxG.mouse.justPressed)
-// {
-//     // converte a posição do mouse pra coordenadas da merdacam
-//     var mousePos = FlxG.mouse.getWorldPosition(merdacam);
-
-//     // checa se o mouse está sobre o botão (usando a mesma câmera)
-//     if (botbtn.overlapsPoint(mousePos, true, merdacam))
-//     {
-//         PlayState.instance.player.cpu = !PlayState.instance.player.cpu;
-//         trace("clicou no botão!");
-//     }
-// }
 
 
     if(fg.Y) FlxG.save.data.curPitch = 1;
@@ -107,10 +154,8 @@ function update(){
 
 function destroy() {
     if (merdacam != null) {
-        // trace(merdacam);
         FlxG.cameras.remove(merdacam);
         merdacam.destroy();
         merdacam = null;
-        // trace(merdacam);
     }
 }
