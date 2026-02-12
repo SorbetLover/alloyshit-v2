@@ -1,5 +1,9 @@
 <!DOCTYPE codename-mod-credits>
 <!-- TEMPLATE FOR CUSTOM CREDITS!!! -->
 <menu name="Mod Credits" desc="Modify mod credits here">
-	<credit name="Credit Example" desc="Click me to know more about me!" icon="credit icon example" size="130" url="https://youtu.be/fugtxz1znVw"/>
+	<!-- <credit name="Credit Example" desc="This modpack" icon="credit icon example" size="130" url="https://youtu.be/fugtxz1znVw"/> -->
+	<credit name="Alloy" desc="This modpack" icon="alloy" size="130" url="https://twitter.com/alloysenz" portrait="false"/>
+	<menu name="misc" desc="misc">
+			<credit name="thosewhoknows27" desc="'Property Surgery', the pause song" icon="credit icon example" size="130" url="only on discord"/>
+	</menu>
 </menu>

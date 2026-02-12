@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ourple/Djfoxy" icon="dad" color="#AF66CE" holdTime="6.1">
+	<anim name="idle" anim="IDLE" loop="true"/>
+	<anim name="singUP" anim="UP" x="5" y="91"/>
+	<anim name="singLEFT" anim="LEFT" x="62" y="108"/>
+	<anim name="singRIGHT" anim="RIGHT" x="-31" y="16"/>
+	<anim name="singDOWN" anim="DOWN" x="-8" y="-51"/>
+	<anim name="jumpscare" anim="JUMPSCARE" y="59"/>
+</character>

@@ -20,9 +20,11 @@ function postCreate(){
     botplayText.cameras = [camHUD];
     
     if(FlxG.save.data.hidingHUD == null) FlxG.save.data.hidingHUD = false;
+    
     #if android 
         FlxG.save.data.hidingHUD = false;
-    camHUD.visible = FlxG.save.data.hidingHUD;
+        camHUD.visible = FlxG.save.data.hidingHUD;
+    #end
 }   
 var fg = FlxG.keys.justPressed;
 var fgp = FlxG.keys.pressed;
@@ -42,13 +44,13 @@ function update(elapsed){
     if(camHUD.visible == false) theStrs.cpu = true;
 }
 function keyshit(){
-    if(fg.Z){
+    if(FlxG.keys.justPressed.Z){
         songIsPaused = !songIsPaused;
     }
-    if(fg.C){
+    if(FlxG.keys.justPressed.C){
         theStrs.cpu = !theStrs.cpu;
     }
-    if(fg.TAB && fgp.SHIFT){
+    if(FlxG.keys.justPressed.TAB && FlxG.keys.pressed.SHIFT){
         camHUD.visible = !camHUD.visible;
         FlxG.save.data.hidingHUD = camHUD.visible;
         trace(player.cpu);
@@ -67,6 +69,8 @@ function functionsthing(){
         
         inst.pitch = FlxG.save.data.curPitch;
         vocals.pitch = FlxG.save.data.curPitch;
-        for (strumLine in strumLines.members){ strumLine.vocals.resume(); strumLine.vocals.pitch = FlxG.save.data.curPitch; }
+        for (strumLine in strumLines.members){
+            strumLine.vocals.resume(); strumLine.vocals.pitch = FlxG.save.data.curPitch; 
+        }
     }
 }

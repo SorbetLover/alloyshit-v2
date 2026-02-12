@@ -2,12 +2,13 @@
 	"color": "#FF43A3",
 	"customValues": {
 		"duration": "3:17",
-		"mechanics": "none",
-		"diff": "MEDIUM-NORMAL"
+		"diff": "MEDIUM-NORMAL",
+		"mechanics": "none"
 	},
 	"opponentModeAllowed": true,
 	"difficulties": [
-		"hard", "dogs"
+		"hard",
+		"dogs"
 	],
 	"icon": "hotline/monikaandyuri",
 	"coopAllowed": true,

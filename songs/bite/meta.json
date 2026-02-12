@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "ourple/bmark",
+	"difficulties": [
+		"bite-hard"
+	],
+	"color": "#992222",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "bite",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 210
+}

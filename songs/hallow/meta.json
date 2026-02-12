@@ -1,8 +1,8 @@
 {
 	"customValues": {
 		"duration": "3:00",
-		"mechanics": "Painting (QT Saw)",
-		"diff": "HARD-NORMAL"
+		"diff": "HARD-NORMAL",
+		"mechanics": "Painting (QT Saw)"
 	},
 	"color": "#FF5555",
 	"opponentModeAllowed": true,

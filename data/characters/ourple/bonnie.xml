@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ourple/Djbonnie" icon="dad" color="#AF66CE" holdTime="6.1">
+	<anim name="idle" anim="IDLE"/>
+	<anim name="singUP" anim="UP" x="36" y="96"/>
+	<anim name="singLEFT" anim="LEFT" x="-107" y="43"/>
+	<anim name="singRIGHT" anim="RIGHT" x="14" y="2"/>
+	<anim name="singDOWN" anim="DOWN" x="-72" y="-19"/>
+</character>
