@@ -24,6 +24,9 @@ function update(elapsed){
             note.extra.set("animPlayed", true);
         }
     });
+    if(FlxG.keys.justPressed.E){
+        spawnfuck();
+    }
 }
 function onPlayerMiss(e){
     if(e.noteType == "painting"){
@@ -40,7 +43,9 @@ function spawnfuck(){
     fuck.y += 100;
     fuck.animation.addByPrefix("paintingShit", "paintingShit", 30, false);
     fuck.playAnim("paintingShit");
-
+    FlxTween.tween(fuck, {y: fuck.y + 330}, 0.2, {startDelay:0.7, onComplete:function(){
+        FlxTween.tween(fuck, {y: fuck.y - 330}, 0.2, {startDelay:0.2});
+    }});
     new FlxTimer().start(2, function(h:FlxTimer){
         fuck.destroy();
     });
