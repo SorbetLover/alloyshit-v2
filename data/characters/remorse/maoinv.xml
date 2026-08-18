@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="remorse/mao_v2inv" color="#C80000" holdTime="6.1" icon="remorse/maoinv">
+	<anim name="idle" anim="idle"/>
+	<anim name="singUP" anim="up" x="44" y="1"/>
+	<anim name="singLEFT" anim="left" x="-19" y="-7"/>
+	<anim name="singRIGHT" anim="right" x="-14" y="-23"/>
+	<anim name="singDOWN" anim="down" x="100" y="-101"/>
+</character>

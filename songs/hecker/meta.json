@@ -1,8 +1,8 @@
 {
 	"customValues": {
 		"duration": "3:08",
-		"mechanics": "none",
-		"diff": "MEDIUM-HARD"
+		"diff": "MEDIUM-HARD",
+		"mechanics": "none"
 	},
 	"color": "#FF9F3B",
 	"opponentModeAllowed": true,

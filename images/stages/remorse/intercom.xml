@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="intercom.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="intercom0000" x="30" y="30" width="172" height="153"/>
+	<SubTexture name="intercom0001" x="30" y="30" width="172" height="153"/>
+	<SubTexture name="intercom0002" x="30" y="213" width="164" height="152" frameX="-8" frameY="0" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0003" x="232" y="30" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0004" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0005" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0006" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0007" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0008" x="224" y="213" width="162" height="152" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0009" x="224" y="213" width="162" height="152" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0010" x="232" y="30" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0011" x="232" y="30" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0012" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0013" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0014" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0015" x="30" y="30" width="172" height="153"/>
+	<SubTexture name="intercom0016" x="30" y="30" width="172" height="153"/>
+	<SubTexture name="intercom0017" x="30" y="213" width="164" height="152" frameX="-8" frameY="0" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0018" x="232" y="30" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0019" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0020" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0021" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0022" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0023" x="224" y="213" width="162" height="152" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0024" x="224" y="213" width="162" height="152" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0025" x="232" y="30" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0026" x="232" y="30" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0027" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0028" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+	<SubTexture name="intercom0029" x="416" y="211" width="162" height="151" frameX="-10" frameY="-1" frameWidth="172" frameHeight="153"/>
+</TextureAtlas>

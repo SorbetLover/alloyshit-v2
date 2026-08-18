@@ -59,18 +59,21 @@ function keyshit(){
 }
 function functionsthing(){
     if(songIsPaused){
-        inst.pause();
-        vocals.pause();
-        for (strumLine in strumLines.members) strumLine.vocals.pause();
-    } else {
-        
-        inst.resume();
-        vocals.resume();
-        
-        inst.pitch = FlxG.save.data.curPitch;
-        vocals.pitch = FlxG.save.data.curPitch;
-        for (strumLine in strumLines.members){
-            strumLine.vocals.resume(); strumLine.vocals.pitch = FlxG.save.data.curPitch; 
+        if(inst.paused == false) {
+            inst.pause();
+            vocals.pause();
+            for (strumLine in strumLines.members) strumLine.vocals.pause();
         }
+    } else {
+        if(inst.paused){
+            inst.resume();
+            vocals.resume();
+            
+            for (strumLine in strumLines.members){
+                strumLine.vocals.resume(); strumLine.vocals.pitch = FlxG.save.data.curPitch; 
+            }
+        }
+            inst.pitch = FlxG.save.data.curPitch;
+            vocals.pitch = FlxG.save.data.curPitch;
     }
 }

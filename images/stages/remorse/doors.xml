@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="doors.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="door0000" x="30" y="30" width="441" height="448"/>
+	<SubTexture name="door0001" x="501" y="30" width="441" height="448"/>
+	<SubTexture name="door0002" x="972" y="30" width="441" height="448"/>
+	<SubTexture name="door0003" x="1443" y="30" width="441" height="448"/>
+	<SubTexture name="door0004" x="1914" y="30" width="441" height="448"/>
+	<SubTexture name="door0005" x="2385" y="30" width="441" height="448"/>
+	<SubTexture name="door0006" x="2856" y="30" width="441" height="448"/>
+	<SubTexture name="door0007" x="3327" y="30" width="441" height="448"/>
+	<SubTexture name="door0008" x="30" y="508" width="441" height="448"/>
+	<SubTexture name="door0009" x="501" y="508" width="441" height="448"/>
+	<SubTexture name="door0010" x="972" y="508" width="441" height="448"/>
+	<SubTexture name="door0011" x="1443" y="508" width="441" height="448"/>
+	<SubTexture name="door0012" x="1914" y="508" width="441" height="448"/>
+	<SubTexture name="door0013" x="2385" y="508" width="441" height="448"/>
+	<SubTexture name="door0014" x="2856" y="508" width="441" height="448"/>
+	<SubTexture name="door0015" x="3327" y="508" width="441" height="448"/>
+	<SubTexture name="door0016" x="30" y="986" width="441" height="448"/>
+	<SubTexture name="door0017" x="501" y="986" width="441" height="448"/>
+	<SubTexture name="door0018" x="972" y="986" width="441" height="448"/>
+	<SubTexture name="door0019" x="1443" y="986" width="441" height="448"/>
+	<SubTexture name="door0020" x="1914" y="986" width="441" height="448"/>
+	<SubTexture name="door0021" x="2385" y="986" width="441" height="448"/>
+	<SubTexture name="door0022" x="2856" y="986" width="441" height="448"/>
+	<SubTexture name="door0023" x="3327" y="986" width="441" height="448"/>
+	<SubTexture name="door0024" x="30" y="1464" width="441" height="448"/>
+	<SubTexture name="door0025" x="501" y="1464" width="441" height="448"/>
+	<SubTexture name="door0026" x="972" y="1464" width="441" height="448"/>
+	<SubTexture name="door0027" x="1443" y="1464" width="441" height="448"/>
+	<SubTexture name="door0028" x="1914" y="1464" width="441" height="448"/>
+	<SubTexture name="door0029" x="2385" y="1464" width="441" height="448"/>
+</TextureAtlas>

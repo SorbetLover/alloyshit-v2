@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/remorse/" zoom="0.6">
+	<gf/>
+	<sprite x="434" y="61" sprite="doors" scale="0.7" name="doors"/>
+	<sprite x="-2626" y="-1217" sprite="hall ALTY" scale="0.7" name="hall ALTY"/>
+	<sprite x="-580" y="-1500" sprite="lightt" name="lightt"/>
+	<sprite x="-441" y="-75" sprite="intercom alt" name="intercom2"/>
+	<sprite x="-2626" y="-1217" sprite="hall" scale="0.7" name="hall"/>
+	<sprite x="-568" y="-1431" sprite="lightzY" name="lightzY"/>
+	<dad scale="1" x="30" y="0" lastOpponent="updike"/>
+	<bf scale="1" x="901" y="9" lastPlayer="bf"/>
+	<combo/>
+	<sprite x="-441" y="-74" sprite="intercom" name="intercom"/>
+	<sprite x="-549" y="-1461" sprite="lightzY weird" name="lightzYW"/>
+</stage>
